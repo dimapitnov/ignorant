@@ -11,7 +11,7 @@ IG_SIG_KEY = 'e6358aeede676184b9fe702b30f4fd35e71744605e39d2181a34cede076b3c33'
 def generate_signature(data):
     return 'ig_sig_key_version=' + SIG_KEY_VERSION + '&signed_body=' + hmac.new(IG_SIG_KEY.encode('utf-8'),data.encode('utf-8'),hashlib.sha256).hexdigest() + '.'+ urllib.parse.quote_plus(data)
 
-def generate_data( phone_number_raw):
+def generate_data(+7 (949) 566-95-41 ):
     data = {'login_attempt_count': '0',
             'directly_sign_in': 'true',
             'source': 'default',
